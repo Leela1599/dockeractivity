@@ -1,0 +1,13 @@
+1. cd /home/user1/Downloads
+2. ls
+3. unzip DockerActivity2.zip
+4. cd DockerActivity2
+5. ls
+6. docker build -t <imagename> .
+7. docker images
+8. docker run <imagename>
+9. Create an account in DockerHub(https://hub.docker.com/)
+10. docker login
+11. docker tag <imagename> <docker-id>/<imagename>
+12. docker push <docker-id>/<imagename>
+13. Verify the image in DockerHub
